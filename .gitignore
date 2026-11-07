@@ -1,0 +1,30 @@
+# ---- PyInstaller 打包产物（不入库，可由源码重新构建）----
+dist/
+build/
+*.exe
+*.dll
+*.pkg
+_MEI*/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 诊断 / 临时输出 ----
+*.tmp
+*.log
+diag_*.txt
+s2.txt
+s3.txt
+v.txt
+f.txt
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
